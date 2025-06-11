@@ -100,6 +100,6 @@ npm start
 
 📖 *Digital Library — Solusi modern untuk manajemen perpustakaan digital.*
 
-[Coba Aplikasinya]([https://your-deployed-app-link.com](https://library-next.up.railway.app)  
+[Coba Aplikasinya][https://library-next.up.railway.app]  
 
   
