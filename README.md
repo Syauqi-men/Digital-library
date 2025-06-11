@@ -1,0 +1,105 @@
+# UAS WORKSHOP WEB
+ 
+## Digital Library
+
+Digital Library adalah aplikasi perpustakaan digital berbasis web yang memungkinkan pengguna untuk meminjam, mengembalikan, dan mengelola koleksi buku secara online. Sistem ini mendukung fitur peminjaman buku, pengembalian, pembayaran denda, serta dashboard admin untuk pengelolaan data anggota dan buku.
+
+### Fitur Utama
+
+- **Peminjaman & Pengembalian Buku**: Pengguna dapat meminjam dan mengembalikan buku secara online.
+- **Manajemen Buku & Anggota**: Admin dapat menambah, mengedit, dan menghapus data buku serta anggota.
+- **Pembayaran Denda**: Mendukung pembayaran denda keterlambatan dengan berbagai metode pembayaran digital.
+- **Dashboard Admin**: Statistik dan pengelolaan data perpustakaan secara real-time.
+- **Notifikasi & Riwayat**: Pengguna dapat melihat riwayat peminjaman dan status pembayaran.
+
+### Teknologi yang Digunakan
+
+- **Frontend**: 
+  - Next.js (React Framework)
+  - TypeScript
+  - Tailwind CSS & PostCSS
+- **Backend**:
+  - Node.js
+- **Database**:
+  - MySQL
+
+---
+
+## Cara Menjalankan Project
+
+### 1. Persiapan Lingkungan
+- Pastikan sudah menginstall:
+  - Node.js (versi sesuai `.nvmrc`)
+  - MySQL (untuk database)
+- Install package manager (jika belum):
+  ```bash
+  npm install -g pnpm
+
+### 2. Clone Repository
+
+```bash
+git clone https://github.com/Syauqi-men/Digital-library.git
+cd Digital-library
+```
+
+### 3. Install Dependencies
+
+```bash
+pnpm install
+```
+
+### 4. Konfigurasi Database
+
+- Pastikan MySQL sudah berjalan di komputer Anda.
+- Buat database baru dengan nama `digital_library`.
+- Buat tabel dengan query di `database/schema.sql`.
+- Buat database sesuai konfigurasi di file `lib/database-config.js`  
+  atau gunakan endpoint debug:
+
+  ```bash
+  curl http://localhost:3000/api/debug/create-database
+  ```
+
+- Sesuaikan konfigurasi database jika diperlukan.
+
+### 5. Jalankan Development Server
+
+```bash
+npm run dev
+```
+
+Aplikasi akan berjalan di [http://localhost:3000](http://localhost:3000).
+
+### 6. Build untuk Produksi
+
+```bash
+npm build
+npm start
+```
+
+---
+
+## 🗂️ Struktur Direktori
+
+- `app/` — Source code aplikasi NextJS (pages, API routes, layout)  
+- `components/` — Komponen UI reusable  
+- `hooks/` — Custom React hooks  
+- `lib/` — Utility dan konfigurasi  
+- `public/` — File statis (gambar, dll)  
+- `styles/` — File CSS global  
+
+---
+
+## 👨‍💻 Di Buat Oleh
+
+- 38_MaulanaChandrarawan_ITB  
+- 49_AhmadFikriRamadhan_ITB  
+- 56_AhmadSyauqiAlFarisi_ITB  
+
+---
+
+📖 *Digital Library — Solusi modern untuk manajemen perpustakaan digital.*
+
+[Coba Aplikasinya]([https://your-deployed-app-link.com](https://library-next.up.railway.app)  
+
+  
