@@ -9,7 +9,7 @@ export const dbConfig = {
 
 export const dbMidtransConfig = {
   clientkey: "SB-Mid-client-Jd0Q8gDOUWweZ5hp",
-  serverkey: "SB-Mid-server-2etAbsnQk7niETppclZMYs4q",
+  serverkey: "",
   isProduction: false,
   isSanitized: true,
   is3ds: true,
